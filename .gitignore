@@ -1,0 +1,18 @@
+# Build output
+bin/
+obj/
+dist/
+*.user
+.vs/
+
+# Private infrastructure — never commit server lists or vaults
+servers.txt
+wallix-targets.txt
+share/servers.txt
+share/bastion.txt
+vault-backups/
+*.dat
+*.bak
+
+# Large self-contained binary belongs in a Release, not the repo
+share/Remora.exe
